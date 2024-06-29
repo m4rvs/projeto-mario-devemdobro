@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #f44336;
+    }
+
+    div.bg-video {
+        display: none;
+    }
+
+    main.container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    main.container img.mario {
+        max-width: 50%;
+        padding-top: 50px;
+    }
+
+    main.container section.information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main.container p.description {
+        color: white;
+        text-align: center;
+    }
+
+    main.container button.trailer-button {
+        background-color: #263238;
+    }
+}
+
+@media (max-width: 500px) {
+    header.header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    main.container img.title-image {
+        max-width: 75%;
+    }
+
+    div.modal .close-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+
+    div.modal iframe#video {
+        width: 300px;
+        height: 169px;
+    }
+}
+
+@media (max-width: 376px) {
+    div.modal iframe#video {
+        width: 250px;
+        height: 140px;
+    }
+}
